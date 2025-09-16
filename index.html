@@ -1,0 +1,44 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS3 Transitions and Animations</title>
+    <link rel="stylesheet" href="styles.css">
+</head> 
+<body>
+    <h1>CSS3 Transitions and Animations</h1>
+<!-- section 1-->
+    <section>
+        <h2>CSS3 Transitions</h2>
+        <p>This shows css trasition in play.</p>
+        <div class="transition-box">Hover over me!</div>
+    </section>
+
+
+<!-- section 2-->
+    <section>
+        <h2>Animations</h2>
+        <p>This shows Css slide animation.</p>
+        <div class="animation-box">I am animated!</div>
+    </section>
+
+
+<!-- section 3 iteractive animation html/css/javascript-->
+    <section>
+        <h2>Modal Button</h2>
+        <button class="open-btn" onclick="openModal()">Open Modal</button>
+    
+    <div class="modal-overlay" id="modal">
+        <div class="modal-content">
+            <button class="close-btn" onclick="closeModal()">&times;</button>
+            <h2>Welcome to the Modal!</h2>
+            <p>This is an interactive modal with smooth animations. You can close it by clicking the X button, clicking outside the modal, or pressing the Escape key.</p>
+            <p>It features a fade-in backdrop and a slide-in animation for the content.</p>
+        </div>
+    </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
